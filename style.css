@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /*
+    background-image: url(./images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+
+    background: image repeat position/size
+    */
+    background: url(./images/background.jpg) no-repeat top center/cover;
+}
+
+body *{
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+#container {
+    width: 360px;
+    margin: 56px auto 0px;
+}
+
+#profile{
+    text-align: center;
+    padding: 24px;
+    margin-top: 8px;
+}
+
+#profile img{
+    width: 112px;
+    margin:auto;
+
+}
+
+#profile p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
